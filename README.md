@@ -1,2 +1,60 @@
-# adbenterprise-config
-Remote configuration for ADBEnterprise Android Agent - Dynamic server URL configuration
+# 🔧 ADBEnterprise Remote Config
+
+Этот репозиторий содержит конфигурацию для Android агента ADBEnterprise.
+
+## 📱 Как это работает
+
+Android APK автоматически загружает `config.json` при каждом запуске и получает актуальный URL сервера.
+
+**Это позволяет менять URL сервера БЕЗ пересборки APK!**
+
+## 🚀 Как обновить URL сервера
+
+1. Запусти Cloudflare Tunnel и получи новый URL
+2. Отредактируй `config.json` в этом репозитории
+3. Замени `server_url` на новый URL
+4. Commit & Push
+5. **Готово!** APK подхватит новый URL автоматически
+
+## 📋 Структура config.json
+
+```json
+{
+  "server_url": "https://your-tunnel.trycloudflare.com",
+  "ws_url": "wss://your-tunnel.trycloudflare.com",
+  "fallback_urls": [
+    "http://10.0.2.2:8000",
+    "http://127.0.0.1:8000"
+  ],
+  "updated_at": "2025-11-28T00:00:00Z",
+  "version": "1.0.0",
+  "message": "Optional message"
+}
+```
+
+| Поле | Описание |
+|------|----------|
+| `server_url` | Основной HTTP URL сервера |
+| `ws_url` | WebSocket URL (опционально, вычисляется из server_url) |
+| `fallback_urls` | Резервные URL для локальных подключений |
+| `updated_at` | Время последнего обновления |
+| `version` | Версия конфигурации |
+| `message` | Произвольное сообщение |
+
+## 🔗 Raw URL для APK
+
+```
+https://raw.githubusercontent.com/RootOne1337/adbenterprise-config/main/config.json
+```
+
+## ⚡ Quick Update
+
+Быстрое обновление через GitHub Web:
+1. Нажми на `config.json`
+2. Нажми карандаш (Edit)
+3. Измени `server_url`
+4. Commit changes
+
+---
+
+**Связанный репозиторий:** [ADBEnterprise](https://github.com/RootOne1337/ADBEnterprise)

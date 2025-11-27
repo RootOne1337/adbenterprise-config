@@ -1,0 +1,11 @@
+{
+  "server_url": "https://native-bones-loading-pollution.trycloudflare.com",
+  "ws_url": "wss://native-bones-loading-pollution.trycloudflare.com",
+  "fallback_urls": [
+    "http://10.0.2.2:8000",
+    "http://127.0.0.1:8000"
+  ],
+  "updated_at": "2025-11-28T04:30:00Z",
+  "version": "1.0.0",
+  "message": "ADBEnterprise Remote Config - Update this file when server URL changes!"
+}

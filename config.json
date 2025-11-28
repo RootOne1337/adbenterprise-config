@@ -1,11 +1,11 @@
 {
-  "server_url": "https://shaped-continuity-transportation-ton.trycloudflare.com",
-  "ws_url": "wss://shaped-continuity-transportation-ton.trycloudflare.com",
+  "server_url": "https://adbenterprise.ru.tuna.am",
+  "ws_url": "wss://adbenterprise.ru.tuna.am",
   "fallback_urls": [
     "http://10.0.2.2:8000",
-    "http://127.0.0.1:8000"
+    "http://192.168.1.100:8000"
   ],
-  "updated_at": "2025-11-29T02:34:00Z",
-  "version": "1.0.6",
-  "message": "v1.5.1 - Tunnel restart"
+  "updated_at": "2025-11-29T04:30:00Z",
+  "version": "1.0.7",
+  "message": "Stable Tuna.am tunnel - permanent subdomain for 100% uptime"
 }

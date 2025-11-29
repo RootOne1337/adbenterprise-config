@@ -1,11 +1,11 @@
 {
-  "server_url": "https://audience-duke-issue-silicon.trycloudflare.com",
-  "ws_url": "wss://audience-duke-issue-silicon.trycloudflare.com",
+  "server_url": "https://adbenterprise.ru.tuna.am",
+  "ws_url": "wss://adbenterprise.ru.tuna.am",
   "fallback_urls": [
     "http://10.0.2.2:8000",
     "http://192.168.1.100:8000"
   ],
-  "updated_at": "2025-11-29T16:00:00Z",
-  "version": "1.0.9",
-  "message": "Cloudflare Tunnel - audience-duke-issue-silicon"
+  "updated_at": "2025-11-29T19:15:00Z",
+  "version": "1.1.0",
+  "message": "Tuna.am permanent tunnel - adbenterprise.ru.tuna.am"
 }

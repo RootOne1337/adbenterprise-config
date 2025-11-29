@@ -1,11 +1,11 @@
 {
-  "server_url": "https://55exjr-80-76-33-202.ru.tuna.am",
-  "ws_url": "wss://55exjr-80-76-33-202.ru.tuna.am",
+  "server_url": "https://audience-duke-issue-silicon.trycloudflare.com",
+  "ws_url": "wss://audience-duke-issue-silicon.trycloudflare.com",
   "fallback_urls": [
     "http://10.0.2.2:8000",
     "http://192.168.1.100:8000"
   ],
-  "updated_at": "2025-11-29T19:26:00Z",
-  "version": "1.0.8",
-  "message": "New Tuna.am tunnel URL - 55exjr-80-76-33-202"
+  "updated_at": "2025-11-29T16:00:00Z",
+  "version": "1.0.9",
+  "message": "Cloudflare Tunnel - audience-duke-issue-silicon"
 }
